@@ -39,6 +39,6 @@ pip install tensorflow scikit-learn matplotlib seaborn pandas numpy
 ## Optimization Strategy
 
 To improve the inital Baseline Autoencoder precision from 0.58 to 0.70 in the Optimized Autoencoder, I implemented:
--**Layer Expansion:** Added a 64-neuron entry layer to capture more complex feature correlations.
--**Epoch Tuning:** Increased training from 50 epochs to reach a more stable global minimum.
--**Threshold Refinement:** Shifted from $3\sigma$ to $4\sigma$ thresholding, prioritizing the reduction of false alarms while maintaining a 0.95 F1-score.
+- **Layer Expansion:** Added a 64-neuron entry layer to capture more complex feature correlations.
+- **Epoch Tuning:** Increased training from 50 epochs to reach a more stable global minimum.
+- **Threshold Refinement:** Shifted from $3\sigma$ to $4\sigma$ thresholding, prioritizing the reduction of false alarms while maintaining a 0.95 F1-score.
