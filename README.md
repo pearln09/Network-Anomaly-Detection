@@ -24,7 +24,7 @@ In modern day cybersecurity landscape, signature-based detection is no longer ef
 
 **1. Clone the Repository**
 ```bash
-git clone [https://github.com/pearln09/Network-Anomaly-Detection.git](https://github.com/pearln09/Network-Anomaly-Detection.git)
+git clone https://github.com/pearln09/Network-Anomaly-Detection.git
 ```
 **2. Install dependencies**
 ```bash
