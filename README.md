@@ -14,7 +14,7 @@ In modern day cybersecurity landscape, signature-based detection is no longer ef
 
 | Algorithm | DDoS Precision | DDoS Recall | **DDoS F1-Score** | Verdict |
 | :--- | :--- | :--- | :--- | :--- |
-| **Optimized Autoencoder** | **0.99** | | 0.90 | **0.95** | Best for Accuracy |
+| **Optimized Autoencoder** | **0.99** | 0.90 | **0.95** | Best for Accuracy |
 | **Isolation Forest** | 0.98 | **0.93** | **0.95** | Best for Speed/Recall |
 | Baseline Autoencoder | 0.99 | 0.84 | 0.91 | Solid Baseline |
 | Local Outlier Factor | 0.97 | 0.64 | 0.77 | Weakest Performance |
